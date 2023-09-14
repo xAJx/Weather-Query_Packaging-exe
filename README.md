@@ -19,6 +19,6 @@
 
 #### IV. 打包後，只需要看 dist 裡面的 那個資料夾就好
 
-#### V. 透過 import base64，設計把 png、jpg、gif 檔，包進py檔裡面，但目前只能在本機端執行
+#### V. 透過 import  base64，設計把 png、jpg、gif 檔，包進py檔裡面，但目前只能在本機端執行
 
 
