@@ -13,9 +13,9 @@
 ------------------------------------------------------
 #### I. 將 .ui 檔 轉成 .py檔 的轉檔指令 pyuic5 -x weather.ui -o storeui.py [weather.ui 為自己設定在 Qt 的 檔名、storeui.py 為自己命名存放轉檔後的位置名稱]
 
-#### II. 打包 exe 前，將所有資料 [含.py.ui 所有圖片檔] 要放在同一層資料裡面、確認指令有下在該層級的資料夾
+#### II. 打包 exe 前，將所有資料 [含.py、.ui 、所有圖片檔] 要放在同一層資料裡面、確認指令有下在該層級的資料夾
 
-#### III. 打包 exe 指令: pyinstaller -F AJ__one.py --noconsole (-F 雜檔包一起、--noconsole 讓背景黑色的 cmd 執行視窗 不要跳出 [在spec檔 裡也可以把 console 改 False])
+#### III. 打包 exe 指令: pyinstaller -F AJ__one.py --noconsole (-F 雜檔包一起、[AJ__one 為自己的 py檔名]、--noconsole 讓背景黑色的 cmd 執行視窗 不要跳出 [在spec檔 裡也可以把 console 改 False])
 
 #### IV. 打包後，只需要看 dist 裡面的 那個資料夾就好
 
