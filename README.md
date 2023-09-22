@@ -1,4 +1,4 @@
-# _台灣地圖 各縣市 天氣查詢 (*PyQt5*、*打包exe*)_
+# _台灣地圖 各縣市 天氣查詢 (PyQt5、打包exe)_
 
 
 > ## 採用的天氣網址是 *https://weather.com/zh-TW/weather/today/該縣市專屬的代碼* [在code裡面名為 loc]
